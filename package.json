@@ -1,0 +1,25 @@
+{
+  "name": "daykit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build && node scripts/seo.mjs",
+    "test": "node --test tests/*.test.js",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "pdf-lib": "1.17.1",
+    "qrcode": "1.5.4",
+    "papaparse": "5.5.3",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0",
+    "@playwright/test": "^1.56.0",
+    "@axe-core/playwright": "^4.10.0"
+  }
+}
