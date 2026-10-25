@@ -16,6 +16,8 @@ npm run preview
 
 Production output is `dist/`. All runtime dependencies are bundled and served from the same origin. There is no backend, external analytics, font service, or file-upload API. The private Sites deployment may require the owner’s hosting authentication; Daykit itself has no registration.
 
+The public site is deployed to [GitHub Pages](https://solmyst.github.io/Daykit/) from `main`. The Pages workflow supplies the repository subpath and public origin during the build. A successful push to `main` automatically runs tests, audits production dependencies, builds, and deploys. Roll back by reverting the relevant commit on `main`; the workflow will publish the prior source state.
+
 ## Architecture
 
 - `src/catalog.js`: tool metadata, category collections, tags, and search. Add discoverable tools here only after their processing is implemented.

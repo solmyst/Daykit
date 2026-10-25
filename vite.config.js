@@ -1,2 +1,2 @@
 import {defineConfig} from 'vite';
-export default defineConfig({worker:{format:'es'}});
+export default defineConfig({base:process.env.VITE_BASE_PATH||'/',worker:{format:'es'}});
