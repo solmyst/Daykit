@@ -1,6 +1,6 @@
 # Daykit
 
-A working, privacy-first utility website with 29 tools, responsive layouts, light/dark appearance, search, favorites, recent tools, downloads, and file handoffs.
+A working, privacy-first utility website with 29 tools, responsive layouts, light/dark appearance, search, favorites, recent tools, downloads, file handoffs, sharing, and an installable offline-capable web app.
 
 ## Run
 
@@ -51,4 +51,4 @@ Files and text stay in browser memory. Only theme and tool IDs are persisted in 
 - Numeric tools use JavaScript floating-point arithmetic; they are everyday utilities, not arbitrary-precision accounting tools.
 - Desktop browser verification was performed in the Chromium-based in-app browser. Responsive widths are tested in actual browser frames; real iOS/Safari and Android device validation remains a release-hardening task.
 
-Read `RESEARCH.md` for evidence, product decisions, and expansion gates. Read `VERIFICATION.md` for tests and known coverage boundaries.
+Read `RESEARCH.md` for evidence, product decisions, and expansion gates. Read `VERIFICATION.md` for tests and known coverage boundaries. Read `GROWTH-LAUNCH.md` for the seven-day launch plan, channel strategy, measurement guardrails, and ready-to-post copy.

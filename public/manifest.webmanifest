@@ -1,0 +1,20 @@
+{
+  "name": "Daykit — Everyday Tools",
+  "short_name": "Daykit",
+  "description": "29 free, private browser tools for PDFs, images, text, calculations, and media.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fafbf9",
+  "theme_color": "#186747",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {"src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Merge PDF", "url": "./tools/merge-pdf/"},
+    {"name": "Compress image", "url": "./tools/compress-image/"},
+    {"name": "Word counter", "url": "./tools/word-counter/"},
+    {"name": "JSON formatter", "url": "./tools/json-formatter/"}
+  ]
+}
